@@ -1,0 +1,64 @@
+.savings-goals {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    margin-right: 10px;
+    padding: 8px;
+    width: calc(33% - 12px);
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #ffc107;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e0a800;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .goal-date {
+    flex: 1;
+    color: #666;
+  }
+  
+  .goal-name {
+    flex: 2;
+    text-align: center;
+  }
+  
+  .goal-amount,
+  .current-amount,
+  .goal-progress {
+    flex: 1;
+    text-align: right;
+    color: #333;
+  }
+  

@@ -1,0 +1,13 @@
+.loading {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #007bff;
+  }
+  
+  .error {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    color: red;
+  }  
